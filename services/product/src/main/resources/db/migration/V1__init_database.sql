@@ -1,8 +1,4 @@
-DROP TABLE IF EXISTS product;
-DROP TABLE IF EXISTS category;
-DROP TABLE IF EXISTS flyway_schema_history;
-DROP SEQUENCE IF EXISTS product_seq;
-DROP SEQUENCE IF EXISTS category_seq;
+
 
 create table if not exists category
 (
