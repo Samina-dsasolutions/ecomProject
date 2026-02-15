@@ -10,6 +10,7 @@
         <module name="config-server" />
         <module name="discovery" />
         <module name="gateway" />
+        <module name="customer" />
       </profile>
       <profile name="Annotation profile for notification" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -22,7 +23,6 @@
         <module name="product" />
         <module name="payment" />
         <module name="order" />
-        <module name="customer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
